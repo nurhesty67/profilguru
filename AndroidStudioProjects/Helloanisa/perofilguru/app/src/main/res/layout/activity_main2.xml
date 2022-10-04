@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/foto2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDENTITAS GURU"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA:Hendro Ardiyanto"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP: 197909242022211003"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT:Jumus Rt18 Rw02,Kecamatan Mranggen,Kabupaten Demak"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal lahir: 24 September 1979,Demak"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mapel: PPKn"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL: "
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

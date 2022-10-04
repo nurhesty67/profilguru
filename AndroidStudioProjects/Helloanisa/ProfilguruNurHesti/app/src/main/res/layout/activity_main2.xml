@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poto"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDENTITAS GURU"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/foto2" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA: Nur Alpiyah S.pd"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIP: 19697042022212003"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT: JL. Dongbiru raya Rt01/Rw03 Genuksari,semarang "
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TANGGAL LAHIR: Semarang,04 juli 1969"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pekerjaan: Guru Sejarah"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email:nuralpiyahspd@gmail.com"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btnrequestguru2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="PROFIL SMKN 1 SAYUNG"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
